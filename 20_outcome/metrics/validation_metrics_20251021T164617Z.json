@@ -1,0 +1,8 @@
+{
+  "run_ts_utc": "20251021T164617Z",
+  "input_rows": 10000,
+  "passed_rows": 8460,
+  "failed_rows": 1540,
+  "breach_count": 1566,
+  "pass_rate_pct": 84.6
+}
