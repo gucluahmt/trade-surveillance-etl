@@ -94,7 +94,7 @@ PROJECT STRUCTURE
 │       ├── p01_ingestion/    # schema normalization
 │       ├── p02_enrichment/   # join reference data
 │       ├── p03_validation/   # rule engine + validator
-│       └── pipeline.py       # orchestrator (optional)
+│       └── pipeline.py       # orchestrator 
 ├── 20_outcome/
 │   ├── curated/              # clean validated data
 │   ├── exceptions/           # failed records
