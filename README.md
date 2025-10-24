@@ -61,7 +61,7 @@ The pipeline ensures that all data passing into the next stage is clean, accurat
 | R001_MANDATORY     | Mandatory fields must not be null (`trade_id`, `order_id`, etc.) | CRITICAL  |
 | R002_ENUMS         | Enum checks for `side`, `instrument_type`, `currency`            | HIGH      |
 | R003_POSITIVE      | `quantity` and `price` must be > 0                               | HIGH      |
-| R004_ID_FORMAT     | ISIN / CUSIP format verification (regex-based)                   | MEDIUM    |
+| R004_ID_FORMAT     | ISIN / CUSIP format verification                                 | MEDIUM    |
 | R005_TS_SANITY     | `trade_ts` must be on/after `trade_date`                         | MEDIUM    |
 | R006_NOTIONAL      | `notional ≈ quantity × price` within tolerance                   | LOW       |
 | R007_DUPLICATES    | Duplicate `trade_id` or (`order_id`,`trade_ts`,`quantity`,`price`)| CRITICAL |
